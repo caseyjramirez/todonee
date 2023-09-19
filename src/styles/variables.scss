@@ -1,0 +1,11 @@
+// FONT
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+$font: Inter, -apple-system, sans-serif;
+
+// COLOR
+$black: #2E2E2E;
+$white: #FFFFFF;
+
+// LIGHT MODE DARK MODE TRANSITION TIMING
+$lmdm-transition: color 0.25s ease-in, background-color .25s ease-out;
+

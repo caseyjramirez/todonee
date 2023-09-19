@@ -1,0 +1,30 @@
+@import "./reset.scss";
+@import "./variables.scss";
+@import "./lightdarkmode.scss";
+@import "./text.scss";
+@import "./layout.scss";
+@import "./home.scss";
+@import "./display.scss";
+@import "./navbar.scss";
+@import "./position.scss";
+@import "./misc.scss";
+
+html {
+    font-family: $font;
+    background-color: $white;
+    color: $black;
+}
+
+:root {
+    @media only screen and (min-width: 500px) {        
+        --padding: 5px;
+        // minus 10 px is taking out the 5px padding on both top and bottom
+        --full-height: calc(100vh - 10px);
+    }
+
+    @media only screen and (min-width: 1100px) {        
+        --padding: 20px;
+        // minus 40 px is taking out the 20px padding on both top and bottom
+        --full-height: calc(100vh - 40px);
+    }
+}

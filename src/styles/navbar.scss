@@ -1,0 +1,22 @@
+.navbar {
+    width: 100%;
+    padding: 20px;
+
+    .light-dark-switch {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        transition: $lmdm-transition;
+
+        &.light {
+            background-color: $white;
+        }
+
+        &.dark {
+            background-color: $black;
+        }
+
+    }
+
+
+}

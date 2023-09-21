@@ -22,5 +22,14 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# deployment scripts
+deployment.sh
+ec2*.sh
 *.sh
+
+# Infastructure info
 ec2_info.json
+.terraform.lock.hcl
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup

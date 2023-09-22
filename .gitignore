@@ -23,7 +23,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # deployment scripts
-deployment.sh
+deploy.sh
+redeploy.sh
+redeployment_tasks.sh
 ec2*.sh
 *.sh
 
